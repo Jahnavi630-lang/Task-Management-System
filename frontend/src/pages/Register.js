@@ -25,7 +25,7 @@ function Register() {
       try {
 
         await axios.post(
-          "http://localhost:5000/api/auth/register",
+          "https://task-management-system-8oso.onrender.com/api/auth/register",
           {
             name,
             email,
